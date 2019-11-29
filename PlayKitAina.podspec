@@ -11,7 +11,6 @@ s.source            = { :git => 'https://github.com/amarunko/playkit-ios.git', :
 s.swift_version     = '5.0'
 
 s.ios.deployment_target = '9.0'
-s.tvos.deployment_target = '9.0'
 
 s.subspec 'Core' do |sp|
     sp.source_files = 'Classes/**/*'
