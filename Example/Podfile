@@ -6,12 +6,12 @@ platform :ios, '9.0'
 
 abstract_target 'PlayKit' do
     
-    pod 'PlayKit', :path => '../../playkit-ios'
-    pod 'PlayKit/YouboraPlugin', :path => '../../playkit-ios'
-    pod 'PlayKit/PhoenixPlugin', :path => '../../playkit-ios' 
-    pod 'PlayKit/KalturaStatsPlugin', :path => '../../playkit-ios'
-    pod 'PlayKit/KalturaLiveStatsPlugin', :path => '../../playkit-ios'
-    pod 'PlayKit/GoogleCastAddon', :path => '../../playkit-ios'
+    pod 'PlayKitAina', :path => '../../playkit-ios'
+    pod 'PlayKitAina/YouboraPlugin', :path => '../../playkit-ios'
+    pod 'PlayKitAina/PhoenixPlugin', :path => '../../playkit-ios' 
+    pod 'PlayKitAina/KalturaStatsPlugin', :path => '../../playkit-ios'
+    pod 'PlayKitAina/KalturaLiveStatsPlugin', :path => '../../playkit-ios'
+    pod 'PlayKitAina/GoogleCastAddon', :path => '../../playkit-ios'
     target 'PlayKit_Example' do
     end
     

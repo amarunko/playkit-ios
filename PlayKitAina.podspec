@@ -24,7 +24,7 @@ end
 s.subspec 'WidevineClassic' do |ssp|
   ssp.ios.deployment_target = '9.0'  
   ssp.source_files = 'Widevine'
-  ssp.dependency 'PlayKit/Core'
+  ssp.dependency 'PlayKitAina/Core'
   #ssp.dependency 'PlayKitWV'
   #ssp.pod_target_xcconfig = { 'ENABLE_BITCODE' => 'NO', 'GCC_PREPROCESSOR_DEFINITIONS'=>'WIDEVINE_ENABLED=1',
    #                           'OTHER_SWIFT_FLAGS' => '$(inherited) -DWIDEVINE_ENABLED' }
@@ -38,7 +38,7 @@ s.subspec 'AnalyticsCommon' do |ssp|
         'FRAMEWORK_SEARCH_PATHS' => '$(inherited) "${PODS_ROOT}"/**',
         'LIBRARY_SEARCH_PATHS' => '$(inherited) "${PODS_ROOT}"/**'
     }
-    ssp.dependency 'PlayKit/Core'
+    ssp.dependency 'PlayKitAina/Core'
 end
 
 s.default_subspec = 'Core'

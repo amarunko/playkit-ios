@@ -38,7 +38,7 @@ import AVFoundation
         }
     }
     
-    var playerLayer: AVPlayerLayer {
+    public var playerLayer: AVPlayerLayer {
         return self.layer as! AVPlayerLayer
     }
     
